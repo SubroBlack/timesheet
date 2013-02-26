@@ -51,7 +51,7 @@ Once you are done with the installation part. Just open new terminal and follow 
 
 11. Enter the command `git timesheet <START_DATE> <END_DATE> <AUTHOR_NAME>`. This command will show all the commits for the specified author between the specified dates.
 
-    **NOTE**: The <AUTHOR_NAME> could be an abbrivation, for example puneet behl as pun.
+    **NOTE**: The `<AUTHOR_NAME>` could be an abbrivation, for example puneet behl as pun.
 
 ## Examples
 
@@ -125,7 +125,6 @@ Once you are done with the installation part. Just open new terminal and follow 
     38304ee Puneet[2012-12-19] Lorem ipsum dolor sit amet, consectetur adipiscing.
     
     ```
-  ```
 * ###git timesheet 2012-12-16 2012-12-20 abhi
    ```bash
 
