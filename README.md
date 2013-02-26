@@ -9,6 +9,7 @@ In case of Ubuntu :
 
 1. Open the terminal.
 2. Open the file .gitconfig in Home directory using your favorite text editor. (e.g. gedit, vim, vi)
+3. Check that the script file has execute permission. (if not give excute permission via `chmod +x timesheet`)
 3. Add the script in the alias block as shown below.
 
     ```
@@ -22,7 +23,7 @@ In case of Ubuntu :
 Once you are done with the installation part. Just open new terminal and follow steps:
 
 1. Move to Git respository using "cd" command.
-2. Enter command "git timesheet". The output will be something like as shown below:
+2. Enter command `git timesheet`. The output will be something like as shown below:
     ```bash
 
        531d1e1 Puneet[2013-02-11] Lorem ipsum dolor sit amet, consectetur adipiscing.
