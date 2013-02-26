@@ -49,7 +49,7 @@ Once you are done with the installation part. Just open new terminal and follow 
 
 10. Enter the command `git timesheet <START_DATE> <AUTHOR_NAME>`. This command will show all the commits for the specified author after the specified date.
 
-11. Enter the command `git timesheet <START_DATE> <END_DATE> <AUTHOR_NAME>. This command will show all the commits for the specified author between the specified dates.
+11. Enter the command `git timesheet <START_DATE> <END_DATE> <AUTHOR_NAME>`. This command will show all the commits for the specified author between the specified dates.
 
     **NOTE**: The <AUTHOR_NAME> could be an abbrivation, for example puneet behl as pun.
 
