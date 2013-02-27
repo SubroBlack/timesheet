@@ -54,5 +54,5 @@
 
    if [[ $# -gt $EXPECTED_ARGS && $# -eq 3 && $1 =~ $DAY_REGEX && $2 =~ $DAY_REGEX && $3 =~ $AUTHOR_NAME_REGEX ]]
    then
-       git log --pretty="short" --format=%Cblue%h%' 'Cgreen%an[%ad]%' 'Creset%s%n --date=short --after={$1-%m-%Y} --before={$2-%m-%Y} --author={$3}
+       git log --pretty="short" --format=%Cblue%h%' 'Cgreen%an[%ad]%' 'Creset%s%n --date=short --after={$1-%m-%Y} --before={$2-%m-%Y} --author=$3
    fi    
